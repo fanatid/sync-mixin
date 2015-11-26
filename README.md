@@ -1,12 +1,10 @@
 # sync-mixin
 
-[![build status](https://img.shields.io/travis/fanatid/sync-mixin.svg?branch=master&style=flat-square)](http://travis-ci.org/fanatid/sync-mixin)
+[![NPM Package](https://img.shields.io/npm/v/sync-mixin.svg?style=flat-square)](https://www.npmjs.org/package/sync-mixin)
+[![Build Status](https://img.shields.io/travis/fanatid/sync-mixin.svg?branch=master&style=flat-square)](https://travis-ci.org/fanatid/sync-mixin)
 [![Coverage Status](https://img.shields.io/coveralls/fanatid/sync-mixin.svg?style=flat-square)](https://coveralls.io/r/fanatid/sync-mixin)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/feross/standard)
 [![Dependency status](https://img.shields.io/david/fanatid/sync-mixin.svg?style=flat-square)](https://david-dm.org/fanatid/sync-mixin#info=dependencies)
-[![Dev Dependency status](https://img.shields.io/david/fanatid/sync-mixin.svg?style=flat-square)](https://david-dm.org/fanatid/sync-mixin#info=devDependencies)
-
-[![NPM](https://nodei.co/npm/sync-mixin.png?downloads=true)](https://www.npmjs.com/package/sync-mixin)
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 ## Installation
 
@@ -63,4 +61,4 @@ setInterval(::process.run, 60 * 1000)
 
 ## License
 
-Code released under [the MIT license](LICENSE).
+This software is licensed under the MIT License.

@@ -8,14 +8,15 @@ export default {
   },
 
   _setSyncCount (value) {
+    let wasSyncing = this.isSyncing()
     this._syncCount = value
 
-    if (value === 0) {
-      return this.emit('syncStop')
+    if (wasSyncing && value === 0) {
+      this.emit('syncStop')
     }
 
-    if (value === 1) {
-      return this.emit('syncStart')
+    if (!wasSyncing && value > 0) {
+      this.emit('syncStart')
     }
   },
 
